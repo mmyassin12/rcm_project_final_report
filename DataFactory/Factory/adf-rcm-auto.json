@@ -1,0 +1,15 @@
+{
+	"name": "adf-rcm-auto",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "191a2ef0-b47b-40bb-9320-100c8feba7ee",
+		"tenantId": "0ec0a02b-9288-4122-b295-7755e68d8ce6"
+	}
+}
