@@ -1,10 +1,9 @@
 # rcm_project_final_report
 
 
+
+##1. Overall pipeline design
 I built an Azure Data Factory pipeline called onPremToCloud to move multiple on-premises datasets into Azure storage in a strict sequential order.
-
-1. Overall pipeline design
-
 I structured the pipeline in Azure Data Factory as a chain of activities where each step runs only after the previous one succeeds. I did this to ensure controlled and ordered movement of data from on-prem file sources into Azure storage.
 
 2. Accounts dataset (first activity)
