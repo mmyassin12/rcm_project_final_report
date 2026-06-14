@@ -15,6 +15,7 @@ For the source, I created a separate dataset for each file. For the sink, I crea
 
 <img width="1000" height="431" alt="image" src="https://github.com/user-attachments/assets/4b590bbd-8ed7-4148-b762-9a1adbba56ce" />
 
+
 #### Activities
 
 ##### A.  Accounts dataset (first activity)
@@ -23,13 +24,13 @@ I started with the Accounts copy activity, which reads delimited files from an o
 
 I kept this as the first step because it has no dependencies and initiates the pipeline flow.
 
-#### Data Dictionary dataset
+##### B Data Dictionary dataset
 
 Next, I configured the Data Dictionary copy activity to run only after the Accounts activity succeeds.
 
 I enforced this dependency so that Data Dictionary processing happens only after Accounts data is successfully moved.
 
-#### Products dataset
+##### C. Products dataset
 
 After that, I added the Products copy activity, which loads product data into Azure storage.
 
@@ -37,13 +38,13 @@ I set it to run only after the Data Dictionary completes successfully so that th
 
 I also enabled type conversion during this step to ensure data values are correctly interpreted during ingestion.
 
-#### Sales Pipeline dataset
+##### D. Sales Pipeline dataset
 
 I then added the Sales Pipeline copy activity, which processes sales pipeline data.
 
 I configured it to run only after the Products activity succeeds so that the data flow remains strictly sequential.
 
-#### Sales Teams dataset
+##### E. Sales Teams dataset
 
 After Sales Pipeline, I configured the Sales Teams copy activity.
 
