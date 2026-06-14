@@ -96,3 +96,11 @@ After a successful pipeline execution, the source files are ingested into the â€
 <img width="940" height="456" alt="image" src="https://github.com/user-attachments/assets/4cd73f7a-9fd5-4b32-84cd-10a97b1057da" />
 
 
+#### Azure monitor
+I have integrated the pipeline with the Azure Monitor dashboard to track its performance and execution. This helps monitor runs, identify issues quickly, and ensure the pipeline operates reliably.
+
+<img width="940" height="461" alt="image" src="https://github.com/user-attachments/assets/6bac92dd-d4af-4de4-84fa-6fec15ab5e4e" />
+
+
+
+
