@@ -12,13 +12,13 @@ I started with the Accounts copy activity, which reads delimited files from an o
 
 I kept this as the first step because it has no dependencies and initiates the pipeline flow.
 
-3. Data Dictionary dataset
+#### Data Dictionary dataset
 
 Next, I configured the Data Dictionary copy activity to run only after the Accounts activity succeeds.
 
 I enforced this dependency so that Data Dictionary processing happens only after Accounts data is successfully moved.
 
-4. Products dataset
+#### Products dataset
 
 After that, I added the Products copy activity, which loads product data into Azure storage.
 
@@ -26,19 +26,19 @@ I set it to run only after the Data Dictionary completes successfully so that th
 
 I also enabled type conversion during this step to ensure data values are correctly interpreted during ingestion.
 
-5. Sales Pipeline dataset
+#### Sales Pipeline dataset
 
 I then added the Sales Pipeline copy activity, which processes sales pipeline data.
 
 I configured it to run only after the Products activity succeeds so that the data flow remains strictly sequential.
 
-6. Sales Teams dataset
+#### Sales Teams dataset
 
 After Sales Pipeline, I configured the Sales Teams copy activity.
 
 I set it to run only after the Sales Pipeline activity succeeds, continuing the same dependency-based execution flow.
 
-7. Success notification (Web Activity)
+#### Success/Failure notification (Web Activity)
 
 Once the final activity (Sales Teams) completes successfully, I trigger a Web Activity that sends a POST request to an Azure Logic App endpoint.
 
@@ -47,14 +47,7 @@ I send:
 Pipeline name
 Run ID
 Timestamp
-Status = Succeeded
+Status = Succeeded/Failure
 
-I added this so I can automatically track successful pipeline runs without manual monitoring.
+I added this so I can automatically track successful or Failure pipeline runs without manual monitoring.
 
-8. Failure notification (Web Activity)
-
-I also configured a separate Web Activity for failure, which triggers if the Sales Teams activity fails.
-
-It sends the same structure to the Logic App, but with status = Failed.
-
-I included this so I get immediate visibility into any pipeline execution failure.
