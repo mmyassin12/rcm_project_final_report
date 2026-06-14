@@ -74,10 +74,13 @@ Once the final activity (Sales Teams) completes successfully, I trigger a Web Ac
 
 I send:
 
-Pipeline name
-Run ID
-Timestamp
-Status = Succeeded/Failure
+Pipeline name:
+
+Run ID:
+
+Timestamp:
+
+Status : Succeeded/Failure
 
 I added this so I can automatically track successful or Failure pipeline runs without manual monitoring.
 
