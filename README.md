@@ -12,7 +12,7 @@ For this project, I created a Resource Group named “rg-rcm”. This resource g
 <img width="940" height="365" alt="image" src="https://github.com/user-attachments/assets/d54489ee-0375-49e7-b1e6-0827767ea8f4" />
 
 ## 3. Storage account
-I created a storage account with two containers: one to store the raw data ingested from on-premises, and another to hold the transformed data after it has been cleaned and processed in Databricks
+I created a storage account with two containers: one to store the raw data ingested from on-premises, and another to hold the transformed data after it has been cleaned and processed in Databricks.
 
 <img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/b5b35d54-ca21-4f5b-8f7b-6f546ee6da2e" />
 
@@ -89,5 +89,10 @@ Status : Succeeded/Failure
 I added this so I can automatically track successful or Failure pipeline runs without manual monitoring.
 
 <img width="812" height="283" alt="image" src="https://github.com/user-attachments/assets/333ac282-a9b2-4ce2-a182-36d95d73ca1a" />
+
+#### Raw data ingestion
+After a successful pipeline execution, the source files are ingested into the ‘raw-data’ container in ADLS, ensuring the data is securely stored and ready for further processing.
+
+<img width="940" height="456" alt="image" src="https://github.com/user-attachments/assets/4cd73f7a-9fd5-4b32-84cd-10a97b1057da" />
 
 
