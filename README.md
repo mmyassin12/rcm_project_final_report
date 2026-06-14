@@ -69,8 +69,12 @@ I set it to run only after the Sales Pipeline activity succeeds, continuing the 
 
 
 #### Success/Failure notification using Azure Logic App (Web Activity)
+I have created an Azure Logic Apps workflow to enable web activity notifications via email, providing alerts on the success or failure of the pipeline
 
-Once the final activity (Sales Teams) completes successfully, I trigger a Web Activity that sends a POST request to an Azure Logic App endpoint.
+<img width="940" height="377" alt="image" src="https://github.com/user-attachments/assets/d1c4ee2b-9acd-420d-a216-c922c969ba3d" />
+
+
+Once the final activity (Sales Teams) completes successfully, a Web Activity is trigger ed that sends a POST request to an Azure Logic App endpoint.
 
 I send:
 
