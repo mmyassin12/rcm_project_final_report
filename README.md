@@ -89,11 +89,15 @@ Status : Succeeded/Failure
 I added this so I can automatically track successful or Failure pipeline runs without manual monitoring.
 
 <img width="812" height="283" alt="image" src="https://github.com/user-attachments/assets/333ac282-a9b2-4ce2-a182-36d95d73ca1a" />
+
 #### Ingestion Raw data
+
 After a successful pipeline execution, the source files are ingested into the ‘raw-data’ container in ADLS, ensuring the data is securely stored and ready for further processing.
 
 <img width="940" height="456" alt="image" src="https://github.com/user-attachments/assets/4cd73f7a-9fd5-4b32-84cd-10a97b1057da" />
+
 #### Azure monitor
+
 I have integrated the pipeline with the Azure Monitor dashboard to track its performance and execution. This helps monitor runs, identify issues quickly, and ensure the pipeline operates reliably.
 
 <img width="940" height="461" alt="image" src="https://github.com/user-attachments/assets/6bac92dd-d4af-4de4-84fa-6fec15ab5e4e" />
