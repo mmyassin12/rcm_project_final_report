@@ -38,6 +38,9 @@ After Sales Pipeline, I configured the Sales Teams copy activity.
 
 I set it to run only after the Sales Pipeline activity succeeds, continuing the same dependency-based execution flow.
 
+<img width="940" height="403" alt="image" src="https://github.com/user-attachments/assets/32c7dab8-9b5f-481d-9f85-4afe04f8a9b7" />
+
+
 #### Success/Failure notification (Web Activity)
 
 Once the final activity (Sales Teams) completes successfully, I trigger a Web Activity that sends a POST request to an Azure Logic App endpoint.
@@ -50,4 +53,7 @@ Timestamp
 Status = Succeeded/Failure
 
 I added this so I can automatically track successful or Failure pipeline runs without manual monitoring.
+
+<img width="812" height="283" alt="image" src="https://github.com/user-attachments/assets/333ac282-a9b2-4ce2-a182-36d95d73ca1a" />
+
 
