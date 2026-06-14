@@ -15,8 +15,9 @@ For the source, I created a separate dataset for each file. For the sink, I crea
 
 <img width="1000" height="431" alt="image" src="https://github.com/user-attachments/assets/4b590bbd-8ed7-4148-b762-9a1adbba56ce" />
 
+#### Activities
 
-####  Accounts dataset (first activity)
+##### A.  Accounts dataset (first activity)
 
 I started with the Accounts copy activity, which reads delimited files from an on-prem file server and loads them into an Azure storage sink dataset (ds_sink).
 
