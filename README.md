@@ -6,6 +6,16 @@
 I built an Azure Data Factory pipeline called onPremToCloud to move multiple on-premises datasets into Azure storage in a strict sequential order.
 I structured the pipeline in Azure Data Factory as a chain of activities where each step runs only after the previous one succeeds. I did this to ensure controlled and ordered movement of data from on-prem file sources into Azure storage.
 
+#### Creating connections
+To connect ADF to the local files on my machine, I installed a Self-Hosted Integration Runtime called “OnPremToAzureIntegrationRunTime” and configured it successfully.
+
+I then created two linked services: one that connects directly to my local drive using the Self-Hosted Integration Runtime, and another that connects to ADLS using AutoResolve.
+
+For the source, I created a separate dataset for each file. For the sink, I created a single dataset that points to the container file path level in ADLS.
+
+<img width="1000" height="431" alt="image" src="https://github.com/user-attachments/assets/4b590bbd-8ed7-4148-b762-9a1adbba56ce" />
+
+
 ####  Accounts dataset (first activity)
 
 I started with the Accounts copy activity, which reads delimited files from an on-prem file server and loads them into an Azure storage sink dataset (ds_sink).
