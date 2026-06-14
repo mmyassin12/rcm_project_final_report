@@ -74,7 +74,7 @@ I have created an Azure Logic Apps workflow to enable web activity notifications
 <img width="940" height="377" alt="image" src="https://github.com/user-attachments/assets/d1c4ee2b-9acd-420d-a216-c922c969ba3d" />
 
 
-Once the final activity (Sales Teams) completes successfully, a Web Activity is trigger ed that sends a POST request to an Azure Logic App endpoint.
+Once the final activity (Sales Teams) completes successfully, a Web Activity is triggered that sends a POST request to an Azure Logic App endpoint.
 
 I send:
 
