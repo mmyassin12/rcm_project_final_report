@@ -34,6 +34,8 @@
      - Revenue by sector
 
 9. [Summary of Key Actions Performed](#summary)
+10. [License](#license)
+11. [Author](#author)
 
 ---
 <a id="project-goal"></a>
@@ -234,5 +236,17 @@ Software: highest share (~26%)
 - Secured sensitive credentials using Azure Key Vault with Databricks Secret Scope for safe access to storage.
 
 - Enabled data querying and modeling in Azure Synapse Analytics by creating structured views.
+
+---
+
+## 🪪 License
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 🌐 Author
+**Mohamud  Yassin**  
+💼 Data Engineer | ☁️ Azure Enthusiast   
+📫 Reach me at: mmyassin12@gmail.com
 
 - Built interactive Power BI dashboards connected to Synapse for business insights and reporting.
