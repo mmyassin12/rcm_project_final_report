@@ -21,6 +21,7 @@
 8. [Data analysis with Power BI](#data-analysis-with-power-bi)
 9. [Summary of Key Actions Performed](#summary-of-key-actions-performed)
 
+---
 
 ## 🎯  Project Goal & Problem Statement
 
@@ -28,11 +29,15 @@ This project aims to design and implement a complete Azure-based data engineerin
 
 By building an automated pipeline using Azure services, the project centralizes data storage, ensures consistent and reliable data ingestion, and transforms raw data into a clean, structured format suitable for analytics. It also introduces monitoring, security, and scalability, which are typically lacking in manual systems.
 
+--- 
+
 ## 🏗️  Project architecture
 
 First, I have started with creating the project layout, as it helps outline the steps involved in a clear and visual way at a conceptual level.
 
 <img width="1042" height="559" alt="image" src="https://github.com/user-attachments/assets/66f92e22-95b4-4582-b7e8-6b62f6e56fa2" />
+
+---
 
 ## 🧱  Resource group
 
@@ -40,11 +45,15 @@ For this project, I created a Resource Group named “rg-rcm”. This resource g
 
 <img width="940" height="365" alt="image" src="https://github.com/user-attachments/assets/d54489ee-0375-49e7-b1e6-0827767ea8f4" />
 
+---
+
 ## 🗄️  Storage account
 
 I created a storage account with two containers: one to store the raw data ingested from on-premises, and another to hold the transformed data after it has been cleaned and processed in Databricks.
 
 <img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/b5b35d54-ca21-4f5b-8f7b-6f546ee6da2e" />
+
+---
 
 ## ⚙️  Pipeline design
 
@@ -94,6 +103,8 @@ After successful pipeline execution, the source files are ingested into the ‘r
 
 Pipeline execution is tracked using Azure Monitor for performance and reliability.
 
+---
+
 ## 🔄  Data transformation with azure Databricks
 
 After the raw data has landed in ADLS, the next step is transformation using Databricks.
@@ -106,11 +117,15 @@ The enriched data is written into the ‘transformed-data’ container following
 
 Databricks retrieves storage access keys securely from Azure Key Vault using Secret Scope.
 
+---
+
 ## 🧠  Enriched data review with Azure Synapse
 
 Now that the transformed data resides in ADLS, it can be easily queried and analyzed using Synapse Analytics. I created views for each enriched data file within a database called ‘sales’, making the data more accessible and ready for reporting and analytical use.
 
 <img width="940" height="438" alt="image" src="https://github.com/user-attachments/assets/aa2f1ffb-661e-4b72-bf2e-96d919824f3f" />
+
+---
 
 ## 📈  Data analysis with Power BI
 
@@ -148,6 +163,8 @@ GTX Basic is top-performing product
 7. Revenue by sector
 
 Software: highest share (~26%)
+
+---
 
 ## 🧾  Summary of Key Actions Performed
 
