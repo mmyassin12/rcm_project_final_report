@@ -120,3 +120,9 @@ Databricks retrieves these keys through a Databricks Secret Scope linked to Key 
 
 <img width="940" height="439" alt="image" src="https://github.com/user-attachments/assets/e0be35fe-0042-4abf-a753-d6127c96da48" />
 
+## 6. Enriched data review with Azure Synapse
+Now that the transformed data resides in ADLS, it can be easily queried and analyzed using Synapse Analytics. I created views for each enriched data file within a database called ‘sales’, making the data more accessible and ready for reporting and analytical use.
+
+ <img width="940" height="438" alt="image" src="https://github.com/user-attachments/assets/aa2f1ffb-661e-4b72-bf2e-96d919824f3f" />
+
+
