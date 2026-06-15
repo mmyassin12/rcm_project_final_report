@@ -125,4 +125,11 @@ Now that the transformed data resides in ADLS, it can be easily queried and anal
 
  <img width="940" height="438" alt="image" src="https://github.com/user-attachments/assets/aa2f1ffb-661e-4b72-bf2e-96d919824f3f" />
 
+## 7. Data analysis with Power BI
+The final step was to derive business insights from the cleaned data by using Synapse database views and visualizing them in Power BI. The curated views in Synapse acted as a structured layer that made the data easy to query and consume. I then connected Power BI to these views to build interactive dashboards and reports, enabling the business to explore trends, monitor performance, and make data-driven decisions effectively.
+
+<img width="963" height="548" alt="image" src="https://github.com/user-attachments/assets/84ef199a-30bf-4b5b-b362-2f1372db36a0" />
+
+
+
 
