@@ -22,31 +22,31 @@
 9. [Summary of Key Actions Performed](#summary-of-key-actions-performed)
 
 
-## 🎯 1. Project Goal & Problem Statement
+## 🎯  Project Goal & Problem Statement
 
 This project aims to design and implement a complete Azure-based data engineering solution that moves data from on-premises systems into the cloud, processes it, and makes it available for analysis. The core problem it solves is the fragmentation and inefficiency of working with raw, unstructured data stored locally, which makes it difficult to manage, monitor, and derive meaningful insights.
 
 By building an automated pipeline using Azure services, the project centralizes data storage, ensures consistent and reliable data ingestion, and transforms raw data into a clean, structured format suitable for analytics. It also introduces monitoring, security, and scalability, which are typically lacking in manual systems.
 
-## 🏗️ 2. Project architecture
+## 🏗️  Project architecture
 
 First, I have started with creating the project layout, as it helps outline the steps involved in a clear and visual way at a conceptual level.
 
 <img width="1042" height="559" alt="image" src="https://github.com/user-attachments/assets/66f92e22-95b4-4582-b7e8-6b62f6e56fa2" />
 
-## 🧱 3. Resource group
+## 🧱  Resource group
 
 For this project, I created a Resource Group named “rg-rcm”. This resource group is used to store and manage all the components involved in the solution, such as Azure Data Factory, storage accounts, and any supporting services.
 
 <img width="940" height="365" alt="image" src="https://github.com/user-attachments/assets/d54489ee-0375-49e7-b1e6-0827767ea8f4" />
 
-## 🗄️ 4. Storage account
+## 🗄️  Storage account
 
 I created a storage account with two containers: one to store the raw data ingested from on-premises, and another to hold the transformed data after it has been cleaned and processed in Databricks.
 
 <img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/b5b35d54-ca21-4f5b-8f7b-6f546ee6da2e" />
 
-## ⚙️ 5. Pipeline design
+## ⚙️  Pipeline design
 
 I built an Azure Data Factory pipeline called onPremToCloud to move multiple on-premises datasets into Azure storage in a strict sequential order.
 I structured the pipeline in Azure Data Factory as a chain of activities where each step runs only after the previous one succeeds. I did this to ensure controlled and ordered movement of data from on-prem file sources into Azure storage.
@@ -94,7 +94,7 @@ After successful pipeline execution, the source files are ingested into the ‘r
 
 Pipeline execution is tracked using Azure Monitor for performance and reliability.
 
-## 🔄 6. Data transformation with azure Databricks
+## 🔄  Data transformation with azure Databricks
 
 After the raw data has landed in ADLS, the next step is transformation using Databricks.
 
@@ -106,13 +106,13 @@ The enriched data is written into the ‘transformed-data’ container following
 
 Databricks retrieves storage access keys securely from Azure Key Vault using Secret Scope.
 
-## 🧠 7. Enriched data review with Azure Synapse
+## 🧠  Enriched data review with Azure Synapse
 
 Now that the transformed data resides in ADLS, it can be easily queried and analyzed using Synapse Analytics. I created views for each enriched data file within a database called ‘sales’, making the data more accessible and ready for reporting and analytical use.
 
 <img width="940" height="438" alt="image" src="https://github.com/user-attachments/assets/aa2f1ffb-661e-4b72-bf2e-96d919824f3f" />
 
-## 📈 8. Data analysis with Power BI
+## 📈  Data analysis with Power BI
 
 The final step was to derive business insights from the cleaned data by using Synapse database views and visualizing them in Power BI. The curated views in Synapse acted as a structured layer that made the data easy to query and consume. I then connected Power BI to these views to build interactive dashboards and reports, enabling the business to explore trends, monitor performance, and make data-driven decisions effectively.
 
@@ -149,7 +149,7 @@ GTX Basic is top-performing product
 
 Software: highest share (~26%)
 
-## 🧾 9. Summary of Key Actions Performed
+## 🧾  Summary of Key Actions Performed
 
 - Designed an end-to-end Azure data architecture to define data flow from on-premises to reporting.
 
