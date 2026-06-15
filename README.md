@@ -103,7 +103,7 @@ I have integrated the pipeline with the Azure Monitor dashboard to track its per
 <img width="940" height="461" alt="image" src="https://github.com/user-attachments/assets/6bac92dd-d4af-4de4-84fa-6fec15ab5e4e" />
 
 
-## 5. Data transformation with azure databricks
+## 5. Data transformation with azure Databricks
 After the raw data has landed in ADLS, the next step is to transform it into a clean and structured format that can be used by the business for reporting and analysis. To achieve this, I used Databricks to perform data cleaning, transformation, and enrichment.
 
 <img width="940" height="432" alt="image" src="https://github.com/user-attachments/assets/0781f220-86d1-4803-9ab1-acb5130ef4b9" />
