@@ -114,5 +114,9 @@ The enriched data is written back to the same storage account, following the med
 
 <img width="940" height="347" alt="image" src="https://github.com/user-attachments/assets/63f53c42-5472-401d-be4e-21353929a9e5" />
 
+### Azure key vault – securing the keys
+For Databricks to read from and write to ADLS, it needs secure access to the storage account. This was configured using storage access keys, which are stored securely in Azure Key Vault rather than being hardcoded. 
+Databricks retrieves these keys through a Databricks Secret Scope linked to Key Vault. This approach improves security by preventing sensitive credentials from being exposed in code.
 
+<img width="940" height="439" alt="image" src="https://github.com/user-attachments/assets/e0be35fe-0042-4abf-a753-d6127c96da48" />
 
