@@ -70,6 +70,7 @@ I created a storage account with two containers: one to store the raw data inges
 I built an Azure Data Factory pipeline called onPremToCloud to move multiple on-premises datasets into Azure storage in a strict sequential order.
 I structured the pipeline in Azure Data Factory as a chain of activities where each step runs only after the previous one succeeds. I did this to ensure controlled and ordered movement of data from on-prem file sources into Azure storage.
 
+<a id="creating-connections"></a>
 ### Creating connections
 To connect ADF to the local files on my machine, I installed a Self-Hosted Integration Runtime called “OnPremToAzureIntegrationRunTime” and configured it successfully.
 
@@ -79,6 +80,7 @@ For the source, I created a separate dataset for each file. For the sink, I crea
 
 <img width="1000" height="431" alt="image" src="https://github.com/user-attachments/assets/4b590bbd-8ed7-4148-b762-9a1adbba56ce" />
 
+<a id="activities"></a>
 ### 🔄 Activities
 #### 📌 Accounts dataset (first activity)
 I started with the Accounts copy activity, which reads delimited files from an on-prem file and loads them into an Azure storage sink dataset (ds_sink).
@@ -146,7 +148,7 @@ I have integrated the pipeline with the Azure Monitor dashboard to track its per
 
 
 ---
-
+<a id="databricks"></a>
 ## 🔄  Data transformation with azure Databricks
 After the raw data has landed in ADLS, the next step is to transform it into a clean and structured format that can be used by the business for reporting and analysis. To achieve this, I used Databricks to perform data cleaning, transformation, and enrichment.
 
@@ -169,14 +171,14 @@ Databricks retrieves these keys through a Databricks Secret Scope linked to Key 
 
 
 ---
-
+<a id="synapse"></a>
 ## 🧠  Enriched data review with Azure Synapse
 Now that the transformed data resides in ADLS, it can be easily queried and analyzed using Synapse Analytics. I created views for each enriched data file within a database called ‘sales’, making the data more accessible and ready for reporting and analytical use.
 
 <img width="940" height="438" alt="image" src="https://github.com/user-attachments/assets/aa2f1ffb-661e-4b72-bf2e-96d919824f3f" />
 
 ---
-
+<a id="power-bi"></a>
 ## 📈  Data analysis with Power BI
 The final step was to derive business insights from the cleaned data by using Synapse database views and visualizing them in Power BI. The curated views in Synapse acted as a structured layer that made the data easy to query and consume. I then connected Power BI to these views to build interactive dashboards and reports, enabling the business to explore trends, monitor performance, and make data-driven decisions effectively.
 
@@ -208,7 +210,7 @@ GTX Basic is top-performing product
 Software: highest share (~26%)
 
 ---
-
+<a id="summary"></a>
 ## 🧾  Summary of Key Actions Performed
 - Designed an end-to-end Azure data architecture to define data flow from on-premises to reporting.
 
