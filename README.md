@@ -1,4 +1,19 @@
 
+# 🏥 End-to-end Data Engineering project with CRM Data
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure" alt="Azure Badge">
+  <img src="https://img.shields.io/badge/PySpark-Big%20Data-orange?logo=apachespark" alt="PySpark Badge">
+  <img src="https://img.shields.io/badge/Azure%20Data%20Factory-ETL%20Pipelines-0078D4?logo=microsoftazure" alt="Azure Data Factory Badge">
+  <img src="https://img.shields.io/badge/Azure%20Synapse-Analytics-008AD7?logo=microsoftazure" alt="Azure Synapse Badge">
+  <img src="https://img.shields.io/badge/Azure%20Databricks-Data%20Engineering-FF3621?logo=databricks" alt="Azure Databricks Badge">
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi" alt="Power BI Badge">
+  <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git" alt="Git Badge">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python" alt="Python Badge">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License Badge">
+</p>
+
+
 ## 📌 Table of Contents
 1. [Project Goal & Problem Statement](#project-goal)
 2. [Project architecture](#project-architecture)
