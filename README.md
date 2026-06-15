@@ -136,23 +136,35 @@ Total Deals: 6,711
 Won: 4,238
 Lost: 2,473
 Win Rate: 63.15%
+
 #### 2. Sum of revenue by account
 Kan-code leads with 11.70K
+
 Revenue concentrated in top accounts
+
 #### 3. Total Sales by Month
 Highly fluctuating monthly trend
+
 Clear peaks mid-year and early Q4
+
 #### 4. Count of revenue by office location
 North America dominates revenue
+
 Africa has minimal presence
+
 #### 5. Total Sales won or lost by Agent
 Darcel Schlecht shows highest activity (both wins and losses)
+
 Other agents show more balanced performance
+
 #### 6. Number of deals won by product
 GTX Basic is top-performing product
+
 GTK 500 performs weakest
+
 #### 7. Revenue by sector
 Software: highest share (~26%)
+
 Medical and Telecom lower contribution
 
 
