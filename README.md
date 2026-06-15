@@ -67,8 +67,8 @@ First, I have started with creating the project layout, as it helps outline the 
 <img width="1042" height="559" alt="image" src="https://github.com/user-attachments/assets/66f92e22-95b4-4582-b7e8-6b62f6e56fa2" />
 
 ---
-<a id="resource-group">
-## 🧱  Resource Group
+<a id="resource-group"></a>
+  ## 🧱  Resource Group
 For this project, I created a Resource Group named “rg-rcm”. This resource group is used to store and manage all the components involved in the solution, such as Azure Data Factory, storage accounts, and any supporting services.
 
 <img width="940" height="365" alt="image" src="https://github.com/user-attachments/assets/d54489ee-0375-49e7-b1e6-0827767ea8f4" />
