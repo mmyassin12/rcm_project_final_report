@@ -148,26 +148,26 @@ Software: highest share (~26%)
 
 ## 🧾 8. Summary of Key Actions Performed
 
-Designed an end-to-end Azure data architecture to define data flow from on-premises to reporting.
+- Designed an end-to-end Azure data architecture to define data flow from on-premises to reporting.
 
-Created and managed an Azure Resource Group (rg-rcm) to organize all project services.
+- Created and managed an Azure Resource Group (rg-rcm) to organize all project services.
 
-Provisioned an Azure Data Lake Storage (ADLS) account with separate containers for raw and transformed data.
+- Provisioned an Azure Data Lake Storage (ADLS) account with separate containers for raw and transformed data.
 
-Built an Azure Data Factory (ADF) pipeline to ingest multiple on-prem datasets into ADLS.
+- Built an Azure Data Factory (ADF) pipeline to ingest multiple on-prem datasets into ADLS.
 
-Configured a Self-Hosted Integration Runtime to securely connect on-premises data sources to Azure.
+- Configured a Self-Hosted Integration Runtime to securely connect on-premises data sources to Azure.
 
-Developed linked services and datasets in ADF to standardize data ingestion from source to sink.
+- Developed linked services and datasets in ADF to standardize data ingestion from source to sink.
 
-Implemented sequential pipeline orchestration with dependencies to ensure controlled and reliable data flow.
+- Implemented sequential pipeline orchestration with dependencies to ensure controlled and reliable data flow.
 
-Added automated monitoring and alerting using Azure Logic Apps and Azure Monitor for pipeline success/failure tracking.
+- Added automated monitoring and alerting using Azure Logic Apps and Azure Monitor for pipeline success/failure tracking.
 
-Performed data transformation and enrichment using Azure Databricks, following a medallion architecture approach.
+- Performed data transformation and enrichment using Azure Databricks, following a medallion architecture approach.
 
-Secured sensitive credentials using Azure Key Vault with Databricks Secret Scope for safe access to storage.
+- Secured sensitive credentials using Azure Key Vault with Databricks Secret Scope for safe access to storage.
 
-Enabled data querying and modeling in Azure Synapse Analytics by creating structured views.
+- Enabled data querying and modeling in Azure Synapse Analytics by creating structured views.
 
-Built interactive Power BI dashboards connected to Synapse for business insights and reporting.
+- Built interactive Power BI dashboards connected to Synapse for business insights and reporting.
