@@ -16,10 +16,10 @@
   - [Success/Failure notification using Azure Logic App](#successfailure-notification-using-azure-logic-app-web-activity)
   - [Ingestion Raw data](#ingestion-raw-data)
   - [Azure monitor](#azure-monitor)
-6 [Data transformation with azure Databricks](#data-transformation-with-azure-databricks)
-7 [Enriched data review with Azure Synapse](#enriched-data-review-with-azure-synapse)
-8 [Data analysis with Power BI](#data-analysis-with-power-bi)
-9 [Summary of Key Actions Performed](#summary-of-key-actions-performed)
+6. [Data transformation with azure Databricks](#data-transformation-with-azure-databricks)
+7. [Enriched data review with Azure Synapse](#enriched-data-review-with-azure-synapse)
+8. [Data analysis with Power BI](#data-analysis-with-power-bi)
+9. [Summary of Key Actions Performed](#summary-of-key-actions-performed)
 
 
 ## 🎯 1. Project Goal & Problem Statement
