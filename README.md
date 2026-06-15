@@ -1,6 +1,6 @@
 
 ## 📌 Table of Contents
-1. [Project Goal & Problem Statement](#project-goal--problem-statement)
+1. [Project Goal & Problem Statement](#project-goal)
 2. [Project architecture](#project-architecture)
 3. [Resource group](#resource-group)
 4. [Storage account](#storage-account)
@@ -13,17 +13,17 @@
      - 📌 Products dataset
      - 📌 Sales Pipeline dataset
      - 📌 Sales Teams dataset
-   - 📩 Success/Failure notification using Azure Logic App (Web Activity)
-   - 📥 Ingestion Raw data
-   - 📊 Azure monitor
+   - [Success/Failure notification using Azure Logic App (Web Activity)](#successfailure-notification)
+   - [Ingestion Raw data](#ingestion-raw-data)
+   - [Azure monitor](#azure-monitor)
 
-6. [Data transformation with azure Databricks](#data-transformation-with-azure-databricks)
+6. [Data transformation with azure Databricks](#databricks)
    - 💾 Storing processed data
    - 🔐 Azure key vault – securing the keys
 
-7. [Enriched data review with Azure Synapse](#enriched-data-review-with-azure-synapse)
+7. [Enriched data review with Azure Synapse](#synapse)
 
-8. [Data analysis with Power BI](#data-analysis-with-power-bi)
+8. [Data analysis with Power BI](#power-bi)
    - Dashboard summary
      - Total Deals / Win Metrics
      - Sum of revenue by account
@@ -33,7 +33,7 @@
      - Number of deals won by product
      - Revenue by sector
 
-9. [Summary of Key Actions Performed](#summary-of-key-actions-performed)
+9. [Summary of Key Actions Performed](#summary)
 
 ---
 
