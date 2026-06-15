@@ -109,5 +109,10 @@ After the raw data has landed in ADLS, the next step is to transform it into a c
 <img width="940" height="432" alt="image" src="https://github.com/user-attachments/assets/0781f220-86d1-4803-9ab1-acb5130ef4b9" />
 <img width="940" height="429" alt="image" src="https://github.com/user-attachments/assets/c0b76ee1-a592-473f-9a37-0a61c598e4af" />
 
+### Storing processed data 
+The enriched data is written back to the same storage account, following the medallion architecture approach, but into a separate container named ‘transformed-data’. This separation helps maintain a clear distinction between raw and processed data, making the architecture more organized and easier to manage.
+
+<img width="940" height="347" alt="image" src="https://github.com/user-attachments/assets/63f53c42-5472-401d-be4e-21353929a9e5" />
+
 
 
