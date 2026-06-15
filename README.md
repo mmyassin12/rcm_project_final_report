@@ -1,13 +1,38 @@
 
 ## 📌 Table of Contents
 1. [Project Goal & Problem Statement](#project-goal--problem-statement)
-2. [Project Architecture](#project-architecture)
-3. [Resource Group](#resource-group)
-4. [Storage Account](#storage-account)
-5. [Pipeline Design](#pipeline-design)
-6. [Data Transformation with Azure Databricks](#data-transformation-with-azure-databricks)
-7. [Enriched Data Review with Azure Synapse](#enriched-data-review-with-azure-synapse)
-8. [Data Analysis with Power BI](#data-analysis-with-power-bi)
+2. [Project architecture](#project-architecture)
+3. [Resource group](#resource-group)
+4. [Storage account](#storage-account)
+
+5. [Pipeline design](#pipeline-design)
+   - [Creating connections](#creating-connections)
+   - [Activities](#activities)
+     - 📌 Accounts dataset (first activity)
+     - 📌 Data Dictionary dataset
+     - 📌 Products dataset
+     - 📌 Sales Pipeline dataset
+     - 📌 Sales Teams dataset
+   - 📩 Success/Failure notification using Azure Logic App (Web Activity)
+   - 📥 Ingestion Raw data
+   - 📊 Azure monitor
+
+6. [Data transformation with azure Databricks](#data-transformation-with-azure-databricks)
+   - 💾 Storing processed data
+   - 🔐 Azure key vault – securing the keys
+
+7. [Enriched data review with Azure Synapse](#enriched-data-review-with-azure-synapse)
+
+8. [Data analysis with Power BI](#data-analysis-with-power-bi)
+   - Dashboard summary
+     - Total Deals / Win Metrics
+     - Sum of revenue by account
+     - Total Sales by Month
+     - Count of revenue by office location
+     - Total Sales won or lost by Agent
+     - Number of deals won by product
+     - Revenue by sector
+
 9. [Summary of Key Actions Performed](#summary-of-key-actions-performed)
 
 ---
