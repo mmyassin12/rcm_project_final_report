@@ -33,6 +33,7 @@ By building an automated pipeline using Azure services, the project centralizes 
 First, I have started with creating the project layout, as it helps outline the steps involved in a clear and visual way at a conceptual level.
 
 <img width="1042" height="559" alt="image" src="https://github.com/user-attachments/assets/66f92e22-95b4-4582-b7e8-6b62f6e56fa2" />
+
 ## 🧱 2. Resource group
 
 For this project, I created a Resource Group named “rg-rcm”. This resource group is used to store and manage all the components involved in the solution, such as Azure Data Factory, storage accounts, and any supporting services.
