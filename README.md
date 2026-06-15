@@ -1,15 +1,25 @@
 ☁️ Azure End-to-End Data Engineering Project
 <p align="center"> <img src="https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure" /> <img src="https://img.shields.io/badge/Azure%20Data%20Factory-ETL-0078D4?logo=microsoftazure" /> <img src="https://img.shields.io/badge/Azure%20Databricks-Processing-FF3621?logo=databricks" /> <img src="https://img.shields.io/badge/Azure%20Synapse-Analytics-008AD7?logo=microsoftazure" /> <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi" /> </p>
+
 📑 Table of Contents
-Project Goal & Problem Statement
+
 1. Project architecture
-2. Resource group
-3. Storage account
-4. Pipeline design
-5. Data transformation with azure Databricks
-6. Enriched data review with Azure Synapse
-7. Data analysis with Power BI
-8. Summary of Key Actions Performed
+2. 
+3. Resource group
+4. 
+5. Storage account
+6. 
+7. Pipeline design
+8. 
+9. Data transformation with azure Databricks
+10. 
+11. Enriched data review with Azure Synapse
+12. 
+13. Data analysis with Power BI
+14. 
+15. Summary of Key Actions Performed
+
+    
 🧠 Project Goal & Problem Statement
 
 This project aims to design and implement a complete Azure-based data engineering solution that moves data from on-premises systems into the cloud, processes it, and makes it available for analysis. The core problem it solves is the fragmentation and inefficiency of working with raw, unstructured data stored locally, which makes it difficult to manage, monitor, and derive meaningful insights.
