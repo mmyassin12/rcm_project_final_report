@@ -3,21 +3,16 @@
 
 📑 Table of Contents
 
+📑 Table of Contents
+Project Goal & Problem Statement #project-goal--problem-statement
 1. Project architecture
-2. 
-3. Resource group
-4. 
-5. Storage account
-6. 
-7. Pipeline design
-8. 
-9. Data transformation with azure Databricks
-10. 
-11. Enriched data review with Azure Synapse
-12. 
-13. Data analysis with Power BI
-14. 
-15. Summary of Key Actions Performed
+2. Resource group
+3. Storage account
+4. Pipeline design
+5. Data transformation with azure Databricks
+6. Enriched data review with Azure Synapse
+7. Data analysis with Power BI
+8. Summary of Key Actions Performed
 
     
 🧠 Project Goal & Problem Statement
