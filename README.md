@@ -1,4 +1,7 @@
-# rcm_project_final_report
+# Project Goal & Problem Statement
+This project aims to design and implement a complete Azure-based data engineering solution that moves data from on-premises systems into the cloud, processes it, and makes it available for analysis. The core problem it solves is the fragmentation and inefficiency of working with raw, unstructured data stored locally, which makes it difficult to manage, monitor, and derive meaningful insights.
+
+By building an automated pipeline using Azure services, the project centralizes data storage, ensures consistent and reliable data ingestion, and transforms raw data into a clean, structured format suitable for analytics. It also introduces monitoring, security, and scalability, which are typically lacking in manual systems.
 
 ## 1. Project architecture
  First, I have started with creating the project layout, as it helps outline the steps involved in a clear and visual way at a conceptual level.
