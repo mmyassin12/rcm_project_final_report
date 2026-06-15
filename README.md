@@ -1,5 +1,5 @@
 
-# 🏥 End-to-End Data Engineering project with CRM Data
+# 🏥 End-to-End Data Engineering project with CRM Sales Data
 
 <p align="center">
   <img src="https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure" alt="Azure Badge">
