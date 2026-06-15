@@ -76,7 +76,7 @@ For this project, I created a Resource Group named “rg-rcm”. This resource g
 ---
 <a id="storage-account"></a>
 ## 🗄️  Storage account
-I created a storage account with two containers: one to store the raw data ingested from on-premises, and another to hold the transformed data after it has been cleaned and processed in Databricks.
+I created an Azure Data Lake Storage (ADLS) account with two containers: one to store the raw data ingested from on-premises, and another to hold the transformed data after it has been cleaned and processed in Databricks.
 
 <img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/b5b35d54-ca21-4f5b-8f7b-6f546ee6da2e" />
 
@@ -84,7 +84,7 @@ I created a storage account with two containers: one to store the raw data inges
 <a id="pipeline-design"></a>
 ## ⚙️  Pipeline design
 
-I built an Azure Data Factory pipeline called onPremToCloud to move multiple on-premises datasets into Azure storage in a strict sequential order.
+I built an Azure Data Factory (ADF) pipeline called onPremToCloud to move multiple on-premises datasets into Azure storage in a strict sequential order.
 I structured the pipeline in Azure Data Factory as a chain of activities where each step runs only after the previous one succeeds. I did this to ensure controlled and ordered movement of data from on-prem file sources into Azure storage.
 
 <a id="creating-connections"></a>
@@ -251,6 +251,8 @@ Software: highest share (~26%)
 - Secured sensitive credentials using Azure Key Vault with Databricks Secret Scope for safe access to storage.
 
 - Enabled data querying and modeling in Azure Synapse Analytics by creating structured views.
+- 
+- Built interactive Power BI dashboards connected to Synapse for business insights and reporting.
 
 ---
 <a id="license"></a>
