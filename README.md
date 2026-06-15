@@ -112,7 +112,7 @@ I set it to run only after the Sales Pipeline activity succeeds, continuing the 
 
 <img width="940" height="403" alt="image" src="https://github.com/user-attachments/assets/32c7dab8-9b5f-481d-9f85-4afe04f8a9b7" />
 
-
+<a id="successfailure-notification"></a>
 ### 📩 Success/Failure notification using Azure Logic App (Web Activity)
 I have created an Azure Logic Apps workflow to enable web activity notifications via email, providing alerts on the success or failure of the pipeline
 
@@ -135,12 +135,13 @@ I added this so I can automatically track successful or Failure pipeline runs wi
 
 <img width="812" height="283" alt="image" src="https://github.com/user-attachments/assets/333ac282-a9b2-4ce2-a182-36d95d73ca1a" />
 
-
+<a id="ingestion-raw-data"></a>
 ### 📥 Ingestion Raw data
 After a successful pipeline execution, the source files are ingested into the ‘raw-data’ container in ADLS, ensuring the data is securely stored and ready for further processing.
 
 <img width="940" height="456" alt="image" src="https://github.com/user-attachments/assets/4cd73f7a-9fd5-4b32-84cd-10a97b1057da" />
 
+<a id="azure-monitor"></a>
 ### 📊 Azure monitor
 I have integrated the pipeline with the Azure Monitor dashboard to track its performance and execution. This helps monitor runs, identify issues quickly, and ensure the pipeline operates reliably.
 
