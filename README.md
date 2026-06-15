@@ -238,12 +238,13 @@ Software: highest share (~26%)
 - Enabled data querying and modeling in Azure Synapse Analytics by creating structured views.
 
 ---
-
+<a id="license"></a>
 ## 🪪 License
 This project is open-source and available under the **MIT License**.
 
 ---
 
+<a id="author"></a>
 ## 🌐 Author
 **Mohamud  Yassin**  
 💼 Data Engineer | ☁️ Azure Enthusiast   
