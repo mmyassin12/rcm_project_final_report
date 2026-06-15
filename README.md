@@ -133,8 +133,11 @@ The final step was to derive business insights from the cleaned data by using Sy
 ### Dashboard summary 
 #### 1. Total Deals / Win Metrics
 Total Deals: 6,711
+
 Won: 4,238
+
 Lost: 2,473
+
 Win Rate: 63.15%
 
 #### 2. Sum of revenue by account
