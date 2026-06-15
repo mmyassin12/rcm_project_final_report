@@ -1,7 +1,7 @@
 # rcm_project_final_report
 
 ## 1. Project architecture
- The first thing I have started with is presenting the project layout, as it helps outline the steps involved in a clear and visual way at a conceptual level.
+ First, I have started with creating the project layout, as it helps outline the steps involved in a clear and visual way at a conceptual level.
 
  <img width="1042" height="559" alt="image" src="https://github.com/user-attachments/assets/66f92e22-95b4-4582-b7e8-6b62f6e56fa2" />
 
