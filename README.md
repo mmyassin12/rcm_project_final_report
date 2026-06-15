@@ -167,29 +167,30 @@ Now that the transformed data resides in ADLS, it can be easily queried and anal
 The final step was to derive business insights from the cleaned data by using Synapse database views and visualizing them in Power BI. The curated views in Synapse acted as a structured layer that made the data easy to query and consume. I then connected Power BI to these views to build interactive dashboards and reports, enabling the business to explore trends, monitor performance, and make data-driven decisions effectively.
 
 <img width="963" height="548" alt="image" src="https://github.com/user-attachments/assets/84ef199a-30bf-4b5b-b362-2f1372db36a0" />
-Dashboard summary
-### 1. Total Deals / Win Metrics
+
+### Dashboard summary
+#### 1. Total Deals / Win Metrics
 Total Deals: 6,711
 Won: 4,238
 Lost: 2,473
 Win Rate: 63.15%
 
-### 2. Sum of revenue by account
+#### 2. Sum of revenue by account
 Kan-code leads with 11.70K
 
-### 3. Total Sales by Month
+#### 3. Total Sales by Month
 Highly fluctuating monthly trend
 
-### 4. Count of revenue by office location
+#### 4. Count of revenue by office location
 North America dominates revenue
 
-### 5. Total Sales won or lost by Agent
+#### 5. Total Sales won or lost by Agent
 Darcel Schlecht shows highest activity
 
-### 6. Number of deals won by product
+#### 6. Number of deals won by product
 GTX Basic is top-performing product
 
-### 7. Revenue by sector
+#### 7. Revenue by sector
 Software: highest share (~26%)
 
 ---
