@@ -38,7 +38,7 @@ For the source, I created a separate dataset for each file. For the sink, I crea
 
 ##### A.  Accounts dataset (first activity)
 
-I started with the Accounts copy activity, which reads delimited files from an on-prem file server and loads them into an Azure storage sink dataset (ds_sink).
+I started with the Accounts copy activity, which reads delimited files from an on-prem file and loads them into an Azure storage sink dataset (ds_sink).
 
 I kept this as the first step because it has no dependencies and initiates the pipeline flow.
 
@@ -53,8 +53,6 @@ I enforced this dependency so that Data Dictionary processing happens only after
 After that, I added the Products copy activity, which loads product data into Azure storage.
 
 I set it to run only after the Data Dictionary completes successfully so that the pipeline maintains a consistent processing sequence.
-
-I also enabled type conversion during this step to ensure data values are correctly interpreted during ingestion.
 
 ##### D. Sales Pipeline dataset
 
