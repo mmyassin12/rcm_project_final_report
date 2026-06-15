@@ -36,35 +36,35 @@
 9. [Summary of Key Actions Performed](#summary)
 
 ---
-
+<a id="project-goal"></a>
 ## 🎯  Project Goal & Problem Statement
 This project aims to design and implement a complete Azure-based data engineering solution that moves data from on-premises systems into the cloud, processes it, and makes it available for analysis. The core problem it solves is the fragmentation and inefficiency of working with raw, unstructured data stored locally, which makes it difficult to manage, monitor, and derive meaningful insights.
 
 By building an automated pipeline using Azure services, the project centralizes data storage, ensures consistent and reliable data ingestion, and transforms raw data into a clean, structured format suitable for analytics. It also introduces monitoring, security, and scalability, which are typically lacking in manual systems.
 
 --- 
-
+<a id="project-architecture"></a>
 ## 🏗️  Project architecture
 First, I have started with creating the project layout, as it helps outline the steps involved in a clear and visual way at a conceptual level.
 
 <img width="1042" height="559" alt="image" src="https://github.com/user-attachments/assets/66f92e22-95b4-4582-b7e8-6b62f6e56fa2" />
 
 ---
-
+<a id="resource-group"><
 ## 🧱  Resource group
 For this project, I created a Resource Group named “rg-rcm”. This resource group is used to store and manage all the components involved in the solution, such as Azure Data Factory, storage accounts, and any supporting services.
 
 <img width="940" height="365" alt="image" src="https://github.com/user-attachments/assets/d54489ee-0375-49e7-b1e6-0827767ea8f4" />
 
 ---
-
+<a id="storage-account"></a>
 ## 🗄️  Storage account
 I created a storage account with two containers: one to store the raw data ingested from on-premises, and another to hold the transformed data after it has been cleaned and processed in Databricks.
 
 <img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/b5b35d54-ca21-4f5b-8f7b-6f546ee6da2e" />
 
 ---
-
+<a id="pipeline-design"></a>
 ## ⚙️  Pipeline design
 
 I built an Azure Data Factory pipeline called onPremToCloud to move multiple on-premises datasets into Azure storage in a strict sequential order.
