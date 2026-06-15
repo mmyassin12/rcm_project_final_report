@@ -1,5 +1,5 @@
 
-# 📌 Table of Contents
+## 📌 Table of Contents
 
 1. [Project Goal & Problem Statement](#project-goal--problem-statement)
 2. [Project architecture](#project-architecture)
