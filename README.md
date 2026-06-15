@@ -16,37 +16,37 @@
 
 ## 📌 Table of Contents
 1. [Project Goal & Problem Statement](#project-goal)
-2. [Project architecture](#project-architecture)
-3. [Resource group](#resource-group)
-4. [Storage account](#storage-account)
+2. [Project Architecture](#project-architecture)
+3. [Resource Group](#resource-group)
+4. [Storage Account](#storage-account)
 
-5. [Pipeline design](#pipeline-design)
-   - [Creating connections](#creating-connections)
+5. [Pipeline Design](#pipeline-design)
+   - [Creating Connections](#creating-connections)
    - [Activities](#activities)
-     - 📌 Accounts dataset (first activity)
-     - 📌 Data Dictionary dataset
-     - 📌 Products dataset
-     - 📌 Sales Pipeline dataset
-     - 📌 Sales Teams dataset
-   - [Success/Failure notification using Azure Logic App (Web Activity)](#successfailure-notification)
-   - [Ingestion Raw data](#ingestion-raw-data)
-   - [Azure monitor](#azure-monitor)
+     - 📌 Accounts Dataset (first activity)
+     - 📌 Data Dictionary Dataset
+     - 📌 Products Dataset
+     - 📌 Sales Pipeline Dataset
+     - 📌 Sales Teams Dataset
+   - [Success/Failure Notification Using Azure Logic App (Web Activity)](#successfailure-notification)
+   - [Ingestion Raw Data](#ingestion-raw-data)
+   - [Azure Monitor](#azure-monitor)
 
-6. [Data transformation with azure Databricks](#databricks)
-   - 💾 Storing processed data
-   - 🔐 Azure key vault – securing the keys
+6. [Data Transformation With Azure Databricks](#databricks)
+   - 💾 Storing Processed Data
+   - 🔐 Azure Key Vault – securing the keys
 
-7. [Enriched data review with Azure Synapse](#synapse)
+7. [Enriched Data Review With Azure Synapse](#synapse)
 
-8. [Data analysis with Power BI](#power-bi)
+8. [Data Analysis With Power BI](#power-bi)
    - Dashboard summary
      - Total Deals / Win Metrics
-     - Sum of revenue by account
+     - Sum of revenue by Account
      - Total Sales by Month
-     - Count of revenue by office location
+     - Count of revenue by office Location
      - Total Sales won or lost by Agent
-     - Number of deals won by product
-     - Revenue by sector
+     - Number of deals won by Product
+     - Revenue by Sector
 
 9. [Summary of Key Actions Performed](#summary)
 10. [License](#license)
