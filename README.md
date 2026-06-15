@@ -1,3 +1,27 @@
+
+## 📌 Table of Contents
+
+- [Project Goal & Problem Statement](#project-goal--problem-statement)
+- [Project architecture](#project-architecture)
+- [Resource group](#resource-group)
+- [Storage account](#storage-account)
+- [Pipeline design](#pipeline-design)
+  - [Creating connections](#creating-connections)
+  - [Activities](#activities)
+    - [Accounts dataset](#a-accounts-dataset-first-activity)
+    - [Data Dictionary dataset](#b-data-dictionary-dataset)
+    - [Products dataset](#c-products-dataset)
+    - [Sales Pipeline dataset](#d-sales-pipeline-dataset)
+    - [Sales Teams dataset](#e-sales-teams-dataset)
+  - [Success/Failure notification using Azure Logic App](#successfailure-notification-using-azure-logic-app-web-activity)
+  - [Ingestion Raw data](#ingestion-raw-data)
+  - [Azure monitor](#azure-monitor)
+- [Data transformation with azure Databricks](#data-transformation-with-azure-databricks)
+- [Enriched data review with Azure Synapse](#enriched-data-review-with-azure-synapse)
+- [Data analysis with Power BI](#data-analysis-with-power-bi)
+- [Summary of Key Actions Performed](#summary-of-key-actions-performed)
+
+
 🎯 Project Goal & Problem Statement
 
 This project aims to design and implement a complete Azure-based data engineering solution that moves data from on-premises systems into the cloud, processes it, and makes it available for analysis. The core problem it solves is the fragmentation and inefficiency of working with raw, unstructured data stored locally, which makes it difficult to manage, monitor, and derive meaningful insights.
