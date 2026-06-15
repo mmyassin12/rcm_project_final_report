@@ -266,5 +266,3 @@ This project is open-source and available under the **MIT License**.
 **Mohamud  Yassin**  
 💼 Data Engineer | ☁️ Azure Enthusiast   
 📫 Reach me at: mmyassin12@gmail.com
-
-- Built interactive Power BI dashboards connected to Synapse for business insights and reporting.
